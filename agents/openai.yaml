@@ -1,0 +1,7 @@
+interface:
+  display_name: "Task Audit"
+  short_description: "复杂任务结束前审计不确定性、遗漏、风险和下一步补救动作"
+  default_prompt: "Use $task-audit to audit the task before final response: show uncertainty, user omissions, impact, and next actions."
+
+policy:
+  allow_implicit_invocation: true
